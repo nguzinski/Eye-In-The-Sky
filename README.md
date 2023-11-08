@@ -1,5 +1,5 @@
 # Eye-In-The-Sky
-NVDI analysis mobile app
+NDVI analysis mobile app
 # Eye In The Sky
 
 The purpose of this project is to create a mobile app that is capable of receiving a wireless camera's input, taking pictures using said camera and doing NVDI calculations, if the camera has infrared capabilities
