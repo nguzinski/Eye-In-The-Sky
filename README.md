@@ -2,13 +2,13 @@
 NDVI analysis mobile app
 # Eye In The Sky
 
-The purpose of this project is to create a mobile app that is capable of receiving a wireless camera's input, taking pictures using said camera and doing NVDI calculations, if the camera has infrared capabilities
+The purpose of this project is to create a mobile app that is capable of receiving a wireless camera's input, taking pictures using said camera and doing NDVI calculations, if the camera has infrared capabilities
 
 ## How it works
 There are two segments to this project the Mobile App and the Camera/Microcomputer
 
 ### Mobile App
-The idea is to create an independent mobile app, capable of receiving pictures from a wireless source and also doing all of the calculations for NVDI.
+The idea is to create an independent mobile app, capable of receiving pictures from a wireless source and also doing all of the calculations for NDVI.
 
 ### The Camera / Microcomputer
 The purpose of this device is to physically take a photo and transmit the data to the mobile app. To start this device will most likely be a Raspberry Pi, with the intention to expand upon what can be used to wirelessly send out data.
@@ -22,7 +22,7 @@ Phone -->> Microcomputer: Wireless Request to take picture
 Microcomputer ->> Camera: Take a picture
 Camera ->> Microcomputer: Prepare Photo for transmission
 Microcomputer -->> Phone: Wireless trasmiting of Photo
-Phone ->> App: Compute NVDI data
+Phone ->> App: Compute NDVI data
 
 ```
 >This is the eventual form above, to start we may not have the ability for the app to request pictures, it may be on a timer
